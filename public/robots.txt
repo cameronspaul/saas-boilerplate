@@ -1,0 +1,13 @@
+# robots.txt for YourSaaS
+# https://www.robotstxt.org/robotstxt.html
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://yoursaas.com/sitemap.xml
+
+# Disallow authenticated areas
+Disallow: /dashboard/
+Disallow: /settings/
+
