@@ -50,7 +50,7 @@ export default function BlogPost() {
   }
 
   return (
-    <div className="relative min-h-screen selection:bg-primary/20 overflow-hidden">
+    <div className="relative min-h-screen bg-background selection:bg-primary/20 overflow-hidden">
       {/* Background Decorations */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full pointer-events-none overflow-hidden">
         <div className="absolute top-[5%] left-[-10%] w-[40%] h-[40%] rounded-full bg-primary/5 blur-[120px] animate-pulse" />

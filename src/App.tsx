@@ -41,6 +41,7 @@ function App() {
 
   useEffect(() => {
     ReactGA.send({ hitType: "pageview", page: location.pathname + location.search })
+    window.scrollTo(0, 0)
   }, [location])
 
   return (

@@ -38,7 +38,7 @@ const ContentPageLayout: React.FC<ContentPageLayoutProps> = ({
                 path={location.pathname}
                 keywords={keywordsArray}
             />
-            <div className="min-h-screen">
+            <div className="min-h-screen bg-background">
                 <div className="container mx-auto max-w-5xl py-12 px-4 sm:px-6 lg:px-8">
                     {/* Header Section */}
                     <div className="space-y-6 text-center mb-12">

@@ -10,7 +10,7 @@ function Home() {
   return (
     <>
       <PageSEO.Home />
-      <div className="flex flex-col items-center justify-center py-16">
+      <div className="flex flex-col items-center justify-center py-16 bg-background min-h-screen">
 
         <motion.div
           className="flex flex-wrap justify-center gap-6 mb-12 max-w-4xl px-4"
